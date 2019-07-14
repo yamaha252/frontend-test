@@ -1,0 +1,48 @@
+@import "icons";
+
+.details {
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30px 35px;
+  display: none;
+
+  &--opened {
+    display: block;
+  }
+
+  &__close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    @include icon($icon-cross);
+
+    &:before {
+      color: #535c65;
+      font-size: 16px;
+    }
+  }
+
+  &__header {
+    font-size: 22px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #707b87;
+  }
+
+  &__content {
+    padding-top: 35px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  @media screen and (min-width: 940px) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 460px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+}

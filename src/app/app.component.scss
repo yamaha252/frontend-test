@@ -1,0 +1,48 @@
+.main-frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1105px;
+  margin: auto;
+
+  @media screen and (min-width: 940px) {
+    height: 100vh;
+  }
+}
+
+main {
+  @media screen and (min-width: 940px) {
+    flex: 1;
+    background: #c3c1c0 url("/assets/images/mood.jpg") right no-repeat;
+    background-size: cover;
+    padding: 30px;
+  }
+}
+
+footer {
+  padding: 1rem 0;
+  color: #ccc;
+  text-align: center;
+}
+
+header {
+  background: #fff;
+  text-align: center;
+
+  .logo {
+    display: inline-block;
+    padding: 15px;
+  }
+
+  @media screen and (min-width: 940px) {
+    background: none;
+    padding-bottom: 25px;
+    text-align: left;
+
+    .logo {
+      background: #e3e4e5;
+      padding: 8px 15px;
+    }
+  }
+}

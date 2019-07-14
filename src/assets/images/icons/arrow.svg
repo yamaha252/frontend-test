@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>Imported Layers</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="53px" viewBox="0 0 63 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M13.375,0.075 C13.175,-0.025 12.975,-0.025 12.875,0.075 L5.875,7.075 C5.775,7.175 5.575,7.175 5.375,7.075 L2.675,4.475 C2.575,4.375 2.375,4.375 2.175,4.475 L0.075,6.675 C-0.025,6.775 -0.025,6.975 0.075,7.175 L2.675,9.775 L3.175,10.275 L5.375,12.475 C5.475,12.575 5.675,12.575 5.875,12.475 L15.575,2.775 C15.675,2.675 15.675,2.475 15.575,2.275 L13.375,0.075 L13.375,0.075 Z" id="Imported-Layers" fill="#1D1D1B" sketch:type="MSShapeGroup"></path>
+    <defs>
+        <filter x="-12.5%" y="-10.8%" width="125.0%" height="130.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" fill="#1D1D1B" fill-rule="nonzero">
+            <path d="M46.8125,0.268269231 C46.1125,-0.0894230769 45.4125,-0.0894230769 45.0625,0.268269231 L20.5625,25.3067308 C20.2125,25.6644231 19.5125,25.6644231 18.8125,25.3067308 L9.3625,16.0067308 C9.0125,15.6490385 8.3125,15.6490385 7.6125,16.0067308 L0.2625,23.8759615 C-0.0875,24.2336538 -0.0875,24.9490385 0.2625,25.6644231 L9.3625,34.9644231 L11.1125,36.7528846 L18.8125,44.6221154 C19.1625,44.9798077 19.8625,44.9798077 20.5625,44.6221154 L54.5125,9.92596154 C54.8625,9.56826923 54.8625,8.85288462 54.5125,8.1375 L46.8125,0.268269231 Z" id="Imported-Layers"></path>
+        </g>
     </g>
 </svg>

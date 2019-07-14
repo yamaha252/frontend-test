@@ -1,6 +1,6 @@
 @import "~normalize.css/normalize.css";
-@import "../webfont/webfont";
 @import "icons";
+@import "fonts";
 
 
 html {
@@ -12,19 +12,17 @@ html {
 
 html, body {
   font-family: 'Fira Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
-  color: #000;
+  color: #535c65;
   height: 100%;
   min-width: 320px;
   min-height: 320px;
-  @media screen and (min-width: 540px) {
-    font-size: 16px;
-  }
 }
 
 body {
   position: relative;
   margin: 0 auto;
   padding: 0;
+  background: #30353b;
 }

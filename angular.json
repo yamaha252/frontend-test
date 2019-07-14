@@ -42,8 +42,14 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": false,
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/webfont"
             ],
             "styles": [
               "src/styles/main.scss"
@@ -101,8 +107,14 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/webfont"
             ],
             "styles": [
               "src/styles/main.scss"

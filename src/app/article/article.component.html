@@ -1,0 +1,28 @@
+<article class="info">
+  <header class="info__header">
+    Sehr geehrter Herr Mustermann, starten Sie sauber ins Jahr 2015 mit neuen Perspektiven.
+  </header>
+  <div class="info__image">
+    <img src="/assets/images/mood.jpg" alt="">
+  </div>
+  <div class="info__content">
+    <section class="offer">
+      <div class="offer__content">
+        <ul class="offer__list">
+          <li>Unbegrenzte Ansicht aller Premium-jobs</li>
+          <li>Gezielte Filtermöglichkeiten nach Jobs mit mehr Gehalt</li>
+        </ul>
+      </div>
+      <div class="offer__price">
+        <div class="offer__price_wrapper">
+          <div class="offer__price__current">EUR 79,40</div>
+          <del class="offer__price__old">EUR 13,23 pro Monat</del>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="info__actions">
+    <button (click)="openDetails()" *ngIf="!detailsOpened">Jetzt säubern und neuen job finden</button>
+  </div>
+</article>
+<app-details [(opened)]="detailsOpened"></app-details>
